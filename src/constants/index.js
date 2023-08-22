@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  wave,
+  fiverr,
+  fyon,
+  angular,
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +46,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-stack Developer",
     icon: web,
   },
   {
@@ -50,11 +54,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Front-end Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Ui/Ux Designer",
     icon: creator,
   },
 ];
@@ -97,8 +101,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "git",
@@ -116,55 +120,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full-stack Developer",
+    company_name: "Wave Informatica",
+    icon: wave,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Angular , React Native and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing new features and user interfaces from wireframe models",
+      "Fixing bugs and Ensuring the best performance and user experience of the application",
+      "Participating in code reviews and getting constructive feedback from other developers.",
+    ],
+  },
+  {
+    title: "Full-stack Developer",
+    company_name: "Fyon",
+    icon: fyon,
+    iconBg: "#E6DEDD",
+    date: "May 2021 - June 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Cooperating with back-end developers, designers, and the rest of the team to deliver well-architected and high-quality solutions",
+      "Ensuring the best performance and user experience of the application",
+      "Automating Application testing service",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Web Designer",
+    company_name: "Fiverr",
+    icon: fiverr,
+    iconBg: "#383E56",
+    date: "Jan 2020 - May 2021",
+    points: [
+      "Create wireframes or mockups for web pages and applications",
+      "Design layouts for mobile, tablet, and desktop devices",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Work with developers to implement visual elements of websites",
+      "Create branding and identity systems for websites, apps, and other media"
     ],
   },
 ];
