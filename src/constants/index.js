@@ -11,7 +11,8 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  postgreSQL,
+  cypress,
   git,
   figma,
   docker,
@@ -67,10 +68,10 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "TypeScript",
     icon: typescript,
@@ -92,8 +93,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "PostgreSQL",
+    icon: postgreSQL,
   },
   {
     name: "Angular",
@@ -111,6 +112,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "cypress",
+    icon: cypress,
+  }
 ];
 
 const experiences = [

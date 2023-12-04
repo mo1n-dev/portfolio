@@ -30,6 +30,8 @@ import tesla from "./company/tesla.png";
 import fyon from "./company/fyon.svg";
 import fiverr from "./company/fiverr-1.svg";
 import wave from "./company/wave.png";
+import postgreSQL from "./tech/postgreSQL.png";
+import cypress from "./tech/cypress.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -67,5 +69,7 @@ export {
   fyon,
   fiverr,
   wave,
-  angular
+  angular,
+  postgreSQL,
+  cypress
 };
