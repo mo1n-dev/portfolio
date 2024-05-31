@@ -23,6 +23,7 @@ import {
   fiverr,
   fyon,
   angular,
+  monitor
 } from "../assets";
 
 export const navLinks = [
@@ -51,12 +52,12 @@ const services = [
   },
   {
     title: "Front-end Developer",
-    icon: backend,
-  },
-  {
-    title: "Ui/Ux Designer",
     icon: creator,
   },
+  {
+    title: "E2E test & Server Assistant",
+    icon: monitor,
+  }
 ];
 
 const technologies = [

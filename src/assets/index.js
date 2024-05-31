@@ -36,6 +36,7 @@ import cypress from "./tech/cypress.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import monitor from "./monitor.png";
 
 export {
   logo,
@@ -71,5 +72,6 @@ export {
   wave,
   angular,
   postgreSQL,
-  cypress
+  cypress,
+  monitor
 };
